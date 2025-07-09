@@ -22,7 +22,7 @@
     {
       "icon": "🏆",
       "title": "Kaggle Achiever",
-      "description": "Silver & Bronze Medal Winner with Top 18% Performance"
+      "description": "Bronze Medal Winner with Top 18% Performance"
     },
     {
       "icon": "💡",
@@ -94,13 +94,8 @@
   ],
   "achievements": [
     {
-      "medal": "🥈",
-      "title": "Silver Medal",
-      "description": "Kaggle Notebook Competition"
-    },
-    {
       "medal": "🥉",
-      "title": "2× Bronze Medals",
+      "title": "4× Bronze Medals",
       "description": "Kaggle Notebook & Discussion"
     },
     {

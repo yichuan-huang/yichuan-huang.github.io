@@ -2,7 +2,6 @@
   "personalInfo": {
     "name": "Yichuan Huang",
     "title": "AI & Computer Vision & LLM Researcher",
-    "gpa": "4.00/4.00",
     "specialties": ["AI, Computer Vision & LLM", "Kaggle Competitor"],
     "quote": "Pushing the boundaries of AI and Computer Vision through innovative research and practical applications",
     "footerQuote": "The best way to predict the future is to invent it - Alan Kay"
@@ -24,10 +23,8 @@
       "location": "Ningbo, China",
       "degree": "BEng in Electrical and Electronic Engineering",
       "period": "2023 - 2025",
-      "gpa": "4.00/4.00",
       "status": "Completed Foundation Studies",
       "highlights": [
-        "Perfect GPA achievement",
         "Provost's Scholarship recipient",
         "Nominee for Zhejiang Provincial Scholarship"
       ]
@@ -37,7 +34,7 @@
     {
       "icon": "🎓",
       "title": "International Student",
-      "description": "BEng Electrical & Electronic Engineering across University of Nottingham campuses with Perfect GPA"
+      "description": "BEng Electrical & Electronic Engineering across University of Nottingham campuses"
     },
     {
       "icon": "🔬",
@@ -69,7 +66,7 @@
     {
       "icon": "📚",
       "title": "Academic Excellence",
-      "description": "Continuing Perfect Academic Record at University of Nottingham"
+      "description": "Continuing Studies at University of Nottingham"
     },
     {
       "icon": "🎯",
@@ -89,10 +86,6 @@
     {
       "label": "Degree Program",
       "value": "BEng in Electrical and Electronic Engineering (2023 - Present)"
-    },
-    {
-      "label": "GPA",
-      "value": "4.00/4.00"
     },
     {
       "label": "Academic Status",
@@ -148,8 +141,8 @@
     },
     {
       "medal": "🎯",
-      "title": "Perfect GPA",
-      "description": "4.00/4.00 Academic Record across University of Nottingham campuses"
+      "title": "Academic Excellence",
+      "description": "Outstanding Academic Record across University of Nottingham campuses"
     }
   ],
   "techStack": [

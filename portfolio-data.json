@@ -1,18 +1,43 @@
 {
   "personalInfo": {
     "name": "Yichuan Huang",
-    "title": "AI & Computer Vision Researcher",
-    "subtitle": "LLM Post-training Specialist",
+    "title": "AI & Computer Vision & LLM Researcher",
     "gpa": "4.00/4.00",
     "specialties": ["AI, Computer Vision & LLM", "Kaggle Competitor"],
     "quote": "Pushing the boundaries of AI and Computer Vision through innovative research and practical applications",
     "footerQuote": "The best way to predict the future is to invent it - Alan Kay"
   },
+  "education": [
+    {
+      "university": "University of Nottingham",
+      "location": "Nottingham, UK",
+      "degree": "BEng in Electrical and Electronic Engineering",
+      "period": "2025 - Present",
+      "status": "Current Student",
+      "highlights": [
+        "Continuing studies at main campus",
+        "Advanced research opportunities"
+      ]
+    },
+    {
+      "university": "University of Nottingham Ningbo China",
+      "location": "Ningbo, China",
+      "degree": "BEng in Electrical and Electronic Engineering",
+      "period": "2023 - 2025",
+      "gpa": "4.00/4.00",
+      "status": "Completed Foundation Studies",
+      "highlights": [
+        "Perfect GPA achievement",
+        "Provost's Scholarship recipient",
+        "Nominee for Zhejiang Provincial Scholarship"
+      ]
+    }
+  ],
   "about": [
     {
       "icon": "🎓",
-      "title": "Outstanding Student",
-      "description": "BEng Electrical & Electronic Engineering at University of Nottingham"
+      "title": "International Student",
+      "description": "BEng Electrical & Electronic Engineering across University of Nottingham campuses with Perfect GPA"
     },
     {
       "icon": "🔬",
@@ -44,7 +69,7 @@
     {
       "icon": "📚",
       "title": "Academic Excellence",
-      "description": "Perfect GPA Achievement"
+      "description": "Continuing Perfect Academic Record at University of Nottingham"
     },
     {
       "icon": "🎯",
@@ -54,16 +79,24 @@
   ],
   "academicProfile": [
     {
-      "label": "University",
-      "value": "University of Nottingham"
+      "label": "Current University",
+      "value": "University of Nottingham, UK"
     },
     {
-      "label": "Degree",
+      "label": "Previous Campus",
+      "value": "University of Nottingham Ningbo China (2023-2025)"
+    },
+    {
+      "label": "Degree Program",
       "value": "BEng in Electrical and Electronic Engineering (2023 - Present)"
     },
     {
       "label": "GPA",
       "value": "4.00/4.00"
+    },
+    {
+      "label": "Academic Status",
+      "value": "Current Undergraduate Student"
     },
     {
       "label": "Research Focus",
@@ -101,7 +134,7 @@
     {
       "medal": "🎓",
       "title": "Provost's Scholarship",
-      "description": "2024-2025 Academic Excellence"
+      "description": "2024-2025 University Academic Excellence Award"
     },
     {
       "medal": "🏆",
@@ -116,7 +149,7 @@
     {
       "medal": "🎯",
       "title": "Perfect GPA",
-      "description": "4.00/4.00 Academic Record"
+      "description": "4.00/4.00 Academic Record across University of Nottingham campuses"
     }
   ],
   "techStack": [
@@ -228,8 +261,8 @@
       "icon": "fas fa-envelope"
     },
     {
-      "platform": "LinkedIn",
-      "url": "http://linkedin.com/in/yichuan-huang-5834062bb",
+      "platform": "Website",
+      "url": "https://yichuan-huang.github.io/",
       "icon": "fas fa-globe"
     },
     {

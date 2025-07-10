@@ -364,8 +364,7 @@
                 // Setup typing texts
                 typingTexts = [
                     `Hi there, I'm ${portfolioData.personalInfo.name} 👋`,
-                    portfolioData.personalInfo.title,
-                    portfolioData.personalInfo.subtitle
+                    portfolioData.personalInfo.title
                 ];
                 
                 // Generate HTML and show content
@@ -403,7 +402,6 @@
                         <span class="cursor">|</span>
                     </div>
                     <div class="badges">
-                        <div class="badge">🎓 GPA: ${portfolioData.personalInfo.gpa}</div>
                         ${portfolioData.personalInfo.specialties.map(specialty => 
                             `<div class="badge">🔬 ${specialty}</div>`
                         ).join('')}

@@ -1,250 +1,245 @@
 {
   "personalInfo": {
     "name": "Yichuan Huang",
-    "title": "AI & Computer Vision & LLM Researcher",
-    "specialties": ["AI, Computer Vision & LLM", "Kaggle Competitor"],
-    "quote": "Pushing the boundaries of AI and Computer Vision through innovative research and practical applications",
-    "footerQuote": "The best way to predict the future is to invent it - Alan Kay"
+    "title": "AI Researcher | Robotics, Reinforcement Learning & Generative Models",
+    "specialties": [
+      "Robotics & Reinforcement Learning",
+      "Generative AI & Computer Vision",
+      "Large Language Models"
+    ],
+    "quote": "Building intelligent systems that bridge robotics, learning, and real-world deployment.",
+    "footerQuote": "Research is turning curiosity into impact."
   },
-  "education": [
-    {
-      "university": "University of Nottingham",
-      "location": "Nottingham, UK",
-      "degree": "BEng in Electrical and Electronic Engineering",
-      "period": "2025 - Present",
-      "status": "Current Student",
-      "highlights": [
-        "Continuing studies at main campus",
-        "Advanced research opportunities"
-      ]
-    },
-    {
-      "university": "University of Nottingham Ningbo China",
-      "location": "Ningbo, China",
-      "degree": "BEng in Electrical and Electronic Engineering",
-      "period": "2023 - 2025",
-      "status": "Completed Foundation Studies",
-      "highlights": [
-        "Provost's Scholarship recipient",
-        "Nominee for Zhejiang Provincial Scholarship"
-      ]
-    }
-  ],
   "about": [
     {
       "icon": "🎓",
-      "title": "International Student",
-      "description": "BEng Electrical & Electronic Engineering across University of Nottingham campuses"
+      "title": "Electrical & Electronic Engineer",
+      "description": "BEng student at the University of Nottingham, with strong foundations in embedded systems, control, and computation."
     },
     {
-      "icon": "🔬",
-      "title": "Active Researcher",
-      "description": "Visiting Student at Shenzhen Research Institute of Big Data & Research Assistant at Xi'an Jiaotong University"
+      "icon": "🤖",
+      "title": "Robotics & RL Researcher",
+      "description": "Focused on deep reinforcement learning for robotic manipulation and sim-to-sim generalization."
+    },
+    {
+      "icon": "🧠",
+      "title": "Generative AI Researcher",
+      "description": "Proposed CUT-based virtual staining pipelines and explored diffusion models for biomedical imaging."
     },
     {
       "icon": "🏆",
-      "title": "Kaggle Achiever",
-      "description": "Bronze Medal Winner with Top 18% Performance"
-    },
-    {
-      "icon": "💡",
-      "title": "AI Specialist",
-      "description": "Contributors in LLMs, GANs, CNNs, and Deep Learning Applications"
+      "title": "Kaggle Competitor",
+      "description": "Four-time Kaggle Notebook Bronze Medalist with top 18% leaderboard performance."
     }
   ],
   "currentFocus": [
     {
       "icon": "🤖",
-      "title": "LLM Post-training",
-      "description": "Large Language Model Optimization"
+      "title": "Robotic Reinforcement Learning",
+      "description": "SAC-based control for manipulation tasks in MuJoCo and Isaac Sim environments."
     },
     {
       "icon": "🔬",
-      "title": "Virtual Staining",
-      "description": "GAN-based Biological Cell Imaging"
+      "title": "Generative Models for Biomedical Imaging",
+      "description": "Virtual staining, diffusion models, and domain adaptation for microscopy data."
     },
     {
-      "icon": "📚",
-      "title": "Academic Excellence",
-      "description": "Continuing Studies at University of Nottingham"
+      "icon": "🧠",
+      "title": "LLM Post-training",
+      "description": "Data synthesis, continued pre-training, and mitigation of catastrophic forgetting."
     },
     {
       "icon": "🎯",
-      "title": "Career Goal",
-      "description": "AI Research & Development"
+      "title": "Research-Oriented Career Path",
+      "description": "Targeting PhD-level research in AI, robotics, and intelligent systems."
     }
   ],
   "academicProfile": [
     {
       "label": "Current University",
-      "value": "University of Nottingham, UK"
+      "value": "University of Nottingham, United Kingdom"
     },
     {
-      "label": "Previous Campus",
-      "value": "University of Nottingham Ningbo China (2023-2025)"
+      "label": "Degree",
+      "value": "BEng Electrical and Electronic Engineering"
     },
     {
-      "label": "Degree Program",
-      "value": "BEng in Electrical and Electronic Engineering (2023 - Present)"
+      "label": "Study Period",
+      "value": "2023 – Present (2+2 Programme)"
     },
     {
-      "label": "Academic Status",
-      "value": "Current Undergraduate Student"
-    },
-    {
-      "label": "Research Focus",
-      "value": "AI applications in biomedical engineering and LLM optimization"
+      "label": "Research Orientation",
+      "value": "Robotics, Reinforcement Learning, Generative AI"
     }
   ],
   "currentProjects": [
     {
-      "title": "LLM Post-training",
-      "description": "Optimizing large language models through advanced training techniques"
+      "title": "Autonomous Robotic Harvesting",
+      "description": "Deep reinforcement learning framework for flower-picking robots in unstructured environments."
     },
     {
-      "title": "Virtual Staining",
-      "description": "Applying GAN variants for biological cell virtual staining"
+      "title": "Franka Panda SAC Control",
+      "description": "Soft Actor-Critic implementation in MuJoCo achieving high-precision pick-and-place."
     },
     {
-      "title": "Computer Vision",
-      "description": "CNN models for classification tasks and image processing"
+      "title": "CUT-based Virtual Staining",
+      "description": "Generative pipeline outperforming CycleGAN in structural fidelity and color consistency."
     },
     {
-      "title": "Reinforcement Learning",
-      "description": "Deep Q-Network implementation for gaming environments"
-    },
-    {
-      "title": "Multi-modal AI",
-      "description": "Vision understanding and retrieval systems"
+      "title": "LLM Post-training Analysis",
+      "description": "Survey and experimentation with EntiGraph, MoFo, and open-source LLM inference workflows."
     }
   ],
   "achievements": [
     {
-      "medal": "🥉",
-      "title": "4× Bronze Medals",
-      "description": "Kaggle Notebook & Discussion"
-    },
-    {
       "medal": "🎓",
-      "title": "Provost's Scholarship",
-      "description": "2024-2025 University Academic Excellence Award"
+      "title": "Provost’s Scholarship",
+      "description": "University Academic Excellence Scholarship (2024–2025, 2025–2026)"
     },
     {
       "medal": "🏆",
-      "title": "Provincial Nominee",
-      "description": "2024 Zhejiang Provincial Scholarship"
+      "title": "Provincial Scholarship Nominee",
+      "description": "Nominee for 2024 Zhejiang Provincial Scholarship"
+    },
+    {
+      "medal": "🥉",
+      "title": "4× Kaggle Bronze Medals",
+      "description": "Awarded for high-quality notebooks and discussions"
     },
     {
       "medal": "📊",
-      "title": "Top 18%",
-      "description": "Best Kaggle Leaderboard: 394/2234"
-    },
-    {
-      "medal": "🎯",
-      "title": "Academic Excellence",
-      "description": "Outstanding Academic Record across University of Nottingham campuses"
+      "title": "Top 18% Kaggle Ranking",
+      "description": "Best leaderboard rank: 394 / 2234"
     }
   ],
   "techStack": [
     {
-      "category": "💻 Programming Languages",
-      "skills": ["Python", "C++", "C"]
+      "category": "💻 Programming & Systems",
+      "skills": [
+        "Python",
+        "C",
+        "C++",
+        "CMake",
+        "Git",
+        "Linux / Shell",
+        "Docker"
+      ]
     },
     {
       "category": "🤖 AI & Machine Learning",
-      "skills": ["PyTorch", "OpenCV", "Scikit-learn", "NumPy", "Pandas", "Matplotlib"]
+      "skills": [
+        "PyTorch",
+        "Computer Vision",
+        "Reinforcement Learning",
+        "LLM Integration",
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "Scikit-learn",
+        "XGBoost"
+      ]
     },
     {
-      "category": "🔧 Tools & Platforms",
-      "skills": ["Linux", "ROS", "Arduino", "Raspberry Pi", "Kaggle", "Git"]
+      "category": "🦾 Robotics & Simulation",
+      "skills": [
+        "ROS",
+        "MuJoCo",
+        "Isaac Sim",
+        "Franka Emika Panda",
+        "Robotic Manipulation"
+      ]
     },
     {
-      "category": "⚡ Control Systems",
-      "skills": ["PID Control", "Bang-bang Control", "RT Control"]
+      "category": "🔧 Embedded & Control",
+      "skills": [
+        "STM32",
+        "Arduino",
+        "Raspberry Pi",
+        "FPGA (Verilog)",
+        "PID Control",
+        "LTspice"
+      ]
     }
   ],
   "researchExperience": [
     {
-      "institution": "Shenzhen Research Institute of Big Data",
-      "position": "Visiting Student",
-      "period": "June 2025 - August 2025",
-      "icon": "🌟",
+      "institution": "Tsinghua University",
+      "position": "Research Assistant (Remote)",
+      "period": "September 2025 – Present",
+      "icon": "🤖",
       "details": [
-        "Supervisor: Associate Professor Ruoyu Sun",
-        "Affiliation: School of Data Science, Chinese University of Hong Kong, Shenzhen",
-        "Focus: LLM Post-training research and optimization techniques",
-        "Technologies: Large Language Models, Deep Learning, Natural Language Processing"
+        "Supervised by Professor Keyou You, Department of Automation",
+        "Developing a deep reinforcement learning framework for autonomous robotic harvesting",
+        "Implemented Soft Actor-Critic (SAC) on Franka Panda in MuJoCo for pick-and-place tasks",
+        "Designing a custom 2-DOF robotic arm environment for sim-to-sim transfer studies"
       ]
     },
     {
-      "institution": "Xi'an Jiaotong University",
-      "position": "Research Assistant",
-      "period": "July 2024 - Present",
+      "institution": "Shenzhen Research Institute of Big Data",
+      "position": "Visiting Undergraduate Student",
+      "period": "June 2025 – August 2025",
+      "icon": "🧠",
+      "details": [
+        "Supervised by Associate Professor Ruoyu Sun (CUHK Shenzhen)",
+        "Surveyed LLM post-training paradigms and continual learning strategies",
+        "Analyzed EntiGraph for synthetic continued pre-training and MoFo optimizer",
+        "Deployed GPT-OSS locally to explore open-source LLM inference workflows"
+      ]
+    },
+    {
+      "institution": "Xi’an Jiaotong University",
+      "position": "Research Assistant (Onsite & Remote)",
+      "period": "July 2024 – Present",
       "icon": "🔬",
       "details": [
-        "Focus: Virtual staining of biological cells using GAN variants",
-        "Supervisors: Professor Feng Xu & Associate Professor Bin Li",
-        "Center: Bioinspired Engineering and Biomechanics Center",
-        "Impact: Advancing medical imaging through AI-powered virtual staining techniques",
-        "Technologies: GANs, Deep Learning, Computer Vision, Biomedical Imaging"
+        "Supervised by Professor Feng Xu and Associate Professor Bin Li",
+        "Proposed and implemented CUT-based virtual staining pipeline",
+        "Demonstrated superior performance over CycleGAN in fidelity and color consistency",
+        "Manuscript currently in preparation",
+        "Explored Stable Diffusion, FLUX, and other generative models for domain adaptation"
       ]
     },
     {
       "institution": "University of Science and Technology of China",
-      "position": "Remote Intern",
-      "period": "May 2024 - July 2024",
-      "icon": "💼",
+      "position": "Research Intern (Remote)",
+      "period": "May 2024 – July 2024",
+      "icon": "🎮",
       "details": [
-        "Focus: CNN models for computer vision classification tasks",
-        "Supervisor: Professor Wei Sun (School of Information Science and Technology)",
-        "Key Projects: Deep Q-Network implementation for gaming environments",
-        "Technologies: CNNs, Reinforcement Learning, Multi-modal Generative AI",
-        "Applications: Vision understanding and retrieval systems"
+        "Supervised by Professor Wei Sun (now Member of Technical Staff at OpenAI)",
+        "Explored CNN-based computer vision classification models",
+        "Implemented Deep Q-Networks for vision-based gaming environments",
+        "Applied multi-modal generative AI for vision understanding and retrieval"
       ]
     }
   ],
   "researchInterests": [
     {
       "icon": "🤖",
-      "title": "Large Language Models",
-      "description": "LLM Post-training & Optimization",
-      "level": "Current",
+      "title": "Robotic Reinforcement Learning",
+      "description": "Policy learning, manipulation, sim-to-sim transfer",
+      "level": "Primary Focus",
       "color": "#dc3545"
     },
     {
       "icon": "🧠",
       "title": "Generative AI",
-      "description": "GANs & Virtual Staining",
+      "description": "GANs, diffusion models, virtual staining",
       "level": "Advanced",
       "color": "#28a745"
     },
     {
-      "icon": "👁️",
-      "title": "Computer Vision",
-      "description": "CNN & Image Processing",
-      "level": "Proficient",
+      "icon": "📐",
+      "title": "Control & Robotics Systems",
+      "description": "Embedded control, kinematics, and simulation",
+      "level": "Strong",
       "color": "#007bff"
     },
     {
-      "icon": "🎮",
-      "title": "Reinforcement Learning",
-      "description": "Deep Q-Networks",
-      "level": "Intermediate",
-      "color": "#fd7e14"
-    },
-    {
-      "icon": "🔬",
-      "title": "Biomedical Engineering",
-      "description": "AI in Healthcare",
-      "level": "Research",
+      "icon": "📝",
+      "title": "Large Language Models",
+      "description": "Post-training, data synthesis, inference systems",
+      "level": "Active Research",
       "color": "#6f42c1"
-    },
-    {
-      "icon": "🤖",
-      "title": "Multi-modal AI",
-      "description": "Vision & Language Understanding",
-      "level": "Exploring",
-      "color": "#e83e8c"
     }
   ],
   "contact": [
@@ -254,14 +249,14 @@
       "icon": "fas fa-envelope"
     },
     {
-      "platform": "Website",
-      "url": "https://yichuan-huang.github.io/",
-      "icon": "fas fa-globe"
-    },
-    {
       "platform": "GitHub",
       "url": "https://github.com/yichuan-huang",
       "icon": "fab fa-github"
+    },
+    {
+      "platform": "Website",
+      "url": "https://yichuan-huang.github.io/",
+      "icon": "fas fa-globe"
     }
   ]
 }

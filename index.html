@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yichuan Huang | Robotics, Reinforcement Learning & AI Research</title>
 
+    <!-- Favicon -->
     <link rel="icon"
         href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
 
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <style>
@@ -35,104 +37,236 @@
             border-radius: 20px;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
         }
+
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #00d4aa, #00a8ff);
+            border-radius: 15px;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .typing-text {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .badges {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+
+        .badge {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+        }
+
+        .section {
+            margin: 40px 0;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            color: #667eea;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            padding: 20px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+        }
+
+        .projects-list {
+            list-style: none;
+        }
+
+        .projects-list li {
+            margin: 10px 0;
+            padding: 15px;
+            border-left: 4px solid #667eea;
+            background: #f8f9ff;
+            border-radius: 8px;
+        }
+
+        .research-item {
+            margin: 20px 0;
+            padding: 20px;
+            border-left: 4px solid #764ba2;
+            background: #faf7ff;
+            border-radius: 10px;
+        }
+
+        .tech-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .tech-badge {
+            background: #667eea;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 16px;
+            font-size: 0.85rem;
+        }
+
+        .contact-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .contact-btn {
+            padding: 12px 22px;
+            border-radius: 25px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: white;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-radius: 15px;
+            margin-top: 40px;
+        }
+
+        .loading,
+        .error {
+            text-align: center;
+            padding: 50px;
+            color: #667eea;
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
 
-        <div class="loading" id="loading">Loading portfolio data from JSON...</div>
-
-        <div class="error" id="error" style="display:none;">
-            <p>❌ Failed to load portfolio data</p>
-            <button class="retry-btn" onclick="loadPortfolioData()">Retry</button>
-        </div>
-
+        <div class="loading" id="loading">Loading portfolio data...</div>
+        <div class="error" id="error" style="display:none;">Failed to load data.</div>
         <div id="content" style="display:none;"></div>
 
     </div>
 
     <script>
-        let portfolioData = null;
-        let typingTexts = [];
-
         async function loadPortfolioData() {
             try {
-                document.getElementById('loading').style.display = 'block';
-                document.getElementById('error').style.display = 'none';
-                document.getElementById('content').style.display = 'none';
-
-                const response = await fetch('./portfolio-data.json');
-                if (!response.ok) throw new Error('Failed to load JSON');
-
-                portfolioData = await response.json();
-
-                typingTexts = [
-                    `Hi, I'm ${portfolioData.personalInfo.name}`,
-                    portfolioData.personalInfo.title
-                ];
-
-                generateHTML();
-
+                const res = await fetch('./portfolio-data.json');
+                if (!res.ok) throw new Error();
+                const data = await res.json();
+                render(data);
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('content').style.display = 'block';
-
-                setTimeout(() => {
-                    startTypingAnimation();
-                }, 100);
-
-            } catch (err) {
-                console.error(err);
+            } catch {
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('error').style.display = 'block';
             }
         }
 
-        function generateHTML() {
+        function render(d) {
             const year = new Date().getFullYear();
-            const content = document.getElementById('content');
+            const c = document.getElementById('content');
 
-            content.innerHTML = `
-            <div class="header fade-in">
-                <div class="typing-text">
-                    <span id="typed-text"></span><span class="cursor">|</span>
-                </div>
-                <div class="badges">
-                    ${portfolioData.personalInfo.specialties.map(
-                s => `<div class="badge">🔬 ${s}</div>`
-            ).join('')}
-                </div>
+            c.innerHTML = `
+        <div class="header">
+            <div class="typing-text">Hi, I'm ${d.personalInfo.name}</div>
+            <div>${d.personalInfo.title}</div>
+            <div class="badges">
+                ${d.personalInfo.specialties.map(s => `<div class="badge">🔬 ${s}</div>`).join('')}
             </div>
+        </div>
 
-            <div class="footer">
-                <p>💡 "${portfolioData.personalInfo.footerQuote}"</p>
-                <p style="margin-top:10px;opacity:0.8;">
-                    © ${year} ${portfolioData.personalInfo.name}. All rights reserved.
-                </p>
+        <div class="section">
+            <h2><i class="fas fa-user"></i> About Me</h2>
+            <div class="grid">
+                ${d.about.map(a => `
+                    <div class="card">
+                        <h3>${a.icon} ${a.title}</h3>
+                        <p>${a.description}</p>
+                    </div>`).join('')}
             </div>
+        </div>
+
+        <div class="section">
+            <h2><i class="fas fa-bullseye"></i> Current Focus</h2>
+            <div class="grid">
+                ${d.currentFocus.map(f => `
+                    <div class="card">
+                        <h3>${f.icon} ${f.title}</h3>
+                        <p>${f.description}</p>
+                    </div>`).join('')}
+            </div>
+        </div>
+
+        <div class="section">
+            <h2><i class="fas fa-project-diagram"></i> Projects</h2>
+            <ul class="projects-list">
+                ${d.currentProjects.map(p => `
+                    <li><strong>${p.title}</strong>: ${p.description}</li>`).join('')}
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><i class="fas fa-flask"></i> Research Experience</h2>
+            ${d.researchExperience.map(r => `
+                <div class="research-item">
+                    <h4>${r.icon} ${r.institution} — ${r.position} (${r.period})</h4>
+                    <ul>${r.details.map(x => `<li>${x}</li>`).join('')}</ul>
+                </div>`).join('')}
+        </div>
+
+        <div class="section">
+            <h2><i class="fas fa-tools"></i> Skills</h2>
+            <div class="grid">
+                ${d.techStack.map(t => `
+                    <div class="card">
+                        <h3>${t.category}</h3>
+                        <div class="tech-badges">
+                            ${t.skills.map(s => `<span class="tech-badge">${s}</span>`).join('')}
+                        </div>
+                    </div>`).join('')}
+            </div>
+        </div>
+
+        <div class="section">
+            <h2><i class="fas fa-envelope"></i> Contact</h2>
+            <div class="contact-buttons">
+                ${d.contact.map(x => `
+                    <a class="contact-btn" href="${x.url}" target="_blank">
+                        <i class="${x.icon}"></i> ${x.platform}
+                    </a>`).join('')}
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>💡 "${d.personalInfo.footerQuote}"</p>
+            <p>© ${year} ${d.personalInfo.name}. All rights reserved.</p>
+        </div>
         `;
-        }
-
-        function startTypingAnimation() {
-            let textIndex = 0, charIndex = 0, isDeleting = false;
-            const el = document.getElementById('typed-text');
-
-            function type() {
-                const text = typingTexts[textIndex];
-                el.textContent = isDeleting
-                    ? text.substring(0, charIndex--)
-                    : text.substring(0, charIndex++);
-
-                if (!isDeleting && charIndex === text.length)
-                    setTimeout(() => isDeleting = true, 1500);
-                else if (isDeleting && charIndex === 0) {
-                    isDeleting = false;
-                    textIndex = (textIndex + 1) % typingTexts.length;
-                }
-
-                setTimeout(type, isDeleting ? 50 : 90);
-            }
-            type();
         }
 
         document.addEventListener('DOMContentLoaded', loadPortfolioData);

@@ -23,7 +23,7 @@ repository               : "yichuan-huang/yichuan-huang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Yichuan Huang"
   pronouns         : # example: "she/her"  
   bio              : "Electrical and Electronic Engineering student with research experience in robotics, reinforcement learning, computer vision, and LLMs."

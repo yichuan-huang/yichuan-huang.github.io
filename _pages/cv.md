@@ -9,8 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-[Email](mailto:ssyyh24@nottingham.ac.uk) | [LinkedIn](https://www.linkedin.com/in/yichuan-huang-5834062bb) | [Website](https://yichuan-huang.github.io/)
-
 Education
 ======
 * **BEng in Electrical and Electronic Engineering**, University of Nottingham, Nottingham, United Kingdom, 2025--Present

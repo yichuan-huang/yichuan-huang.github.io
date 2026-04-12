@@ -1,25 +1,24 @@
 {
-  "name": "academic-pages",
+  "name": "yichuan-huang-website",
   "version": "0.8.1.1",
-  "description": "Academic Pages Mistakes Jekyll theme npm build scripts",
+  "description": "Build scripts for Yichuan Huang's Jekyll website",
   "repository": {
     "type": "git",
-    "url": "https://github.com/academicpages/academicpages.github.io"
+    "url": "https://github.com/yichuan-huang/yichuan-huang.github.io"
   },
   "keywords": [
     "jekyll",
-    "theme",
-    "minimal"
+    "personal-website",
+    "cv"
   ],
   "contributors": [
-    "Michael Rose",
-    "Robert Zupko"
+    "Yichuan Huang"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/academicpages/academicpages.github.io/issues"
+    "url": "https://github.com/yichuan-huang/yichuan-huang.github.io/issues"
   },
-  "homepage": "https://github.com/academicpages/academicpages.github.io",
+  "homepage": "https://yichuan-huang.github.io",
   "engines": {
     "node": ">= 0.10.0"
   },

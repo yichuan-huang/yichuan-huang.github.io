@@ -16,7 +16,7 @@ Education
 
 Experience
 ======
-* **Research Assistant (Remote)**, Tsinghua University, Department of Automation, Beijing, China, Sep. 2025--Present
+* **Research Assistant (Remote)**, Tsinghua University, Department of Automation, Beijing, China, Sep. 2025--Jan. 2026
   * Supervisor: Prof. Keyou You
   * Developing a Deep Reinforcement Learning (DRL) framework for autonomous robotic harvesting (flower picking) in unstructured environments.
   * Developed manipulation policies for a Franka Panda in MuJoCo, focusing on robot interaction within spatial environments and generalization across simulated scenes.
@@ -27,11 +27,11 @@ Experience
   * Surveyed LLM post-training paradigms; analyzed EntiGraph for synthetic continued pre-training (data synthesis) and the MoFo optimizer to mitigate forgetting in fine-tuning.
   * Deployed GPT-OSS locally to explore inference workflows and configuration of open-source LLMs.
 
-* **Research Assistant (Onsite & Remote)**, Xi'an Jiaotong University, Bioinspired Engineering & Biomechanics Center, Xi'an, China, Jul. 2024--Present
+* **Research Assistant (Onsite & Remote)**, Xi'an Jiaotong University, Bioinspired Engineering & Biomechanics Center, Xi'an, China, Jul. 2024--Jan. 2026
   * Supervisors: Prof. Feng Xu; Asst. Prof. Bin Li
   * Proposed and implemented a CUT-based virtual staining pipeline, demonstrating improvements over CycleGAN in structural and geometric consistency for visual structure modelling.
-  * Conducted quantitative and qualitative evaluations on cellular morphology; manuscript writing is largely complete and submission is forthcoming.
-  * Exploring preprocessing and image enhancement using generative models (e.g. Stable Diffusion, FLUX) for potential image quality and domain adaptation gains.
+  * Conducted quantitative and qualitative evaluations on cellular morphology, contributing to a manuscript submitted to *Nature Methods* and currently under review.
+  * Explored generative-model-based preprocessing and image enhancement (e.g. Stable Diffusion, FLUX), and successfully deployed FLUX.2 on Hugging Face Spaces as an interactive demo for image enhancement and domain adaptation experiments.
 
 * **Intern (Remote)**, University of Science and Technology of China, Hefei, China, May 2024--Jul. 2024
   * Supervisor: Prof. Wei Sun
@@ -42,7 +42,7 @@ Experience
 Publications
 ======
 * **CUT-based virtual staining for cellular morphology and visual structure modelling**, Xi'an Jiaotong University Bioinspired Engineering & Biomechanics Center
-  * Manuscript writing is largely complete and submission is forthcoming.
+  * Manuscript submitted to *Nature Methods* under the title **OsteoSight: Label-Free Virtual Fluorescence Staining for Biophysics-Anchored Osteogenic Fate Inference from Conventional Microscopy** (Reference number: NMETH-A65806).
 
 Awards
 ======

@@ -16,7 +16,7 @@ Education
 
 Experience
 ======
-* **Research Assistant (Remote)**, Tsinghua University, Department of Automation, Beijing, China, Sep. 2025--Jan. 2026
+* **Research Assistant (Remote)**, Tsinghua University, Department of Automation, Beijing, China, Sep. 2025--Feb. 2026
   * Supervisor: Prof. Keyou You
   * Developed a Deep Reinforcement Learning (DRL) framework for autonomous robotic harvesting (flower picking) in unstructured environments.
   * Trained and evaluated Soft Actor-Critic (SAC) and Truncated Quantile Critics (TQC) policies for pick-and-place tasks with a Franka Panda in MuJoCo, focusing on manipulation robustness and generalization across simulated scenes.

@@ -33,7 +33,7 @@ Experience
   * Supervisors: Prof. Feng Xu; Asst. Prof. Bin Li
   * Designed and implemented a contrastive-learning-based virtual fluorescence staining framework for label-free, biophysics-anchored osteogenic fate inference from conventional microscopy images.
   * Demonstrated improved preservation of cellular structure, geometric consistency, and morphology-aware translation over CycleGAN-based baselines, while reducing computational cost through unidirectional training.
-  * Conducted quantitative and qualitative evaluation of cellular morphology and visual fidelity, contributing to a co-authored manuscript currently under review at *Nature Methods*.
+  * Conducted quantitative and qualitative evaluation of cellular morphology and visual fidelity, contributing to a co-authored manuscript currently under review.
   * Explored generative-model-based preprocessing and enhancement methods, including Stable Diffusion and FLUX, and deployed an interactive FLUX.2 demo on Hugging Face Spaces for image enhancement and domain adaptation experiments.
 
 * **Intern (Remote)**, University of Science and Technology of China, Hefei, China, May 2024--Jul. 2024

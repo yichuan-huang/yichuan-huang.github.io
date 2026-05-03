@@ -11,8 +11,8 @@ redirect_from:
 
 Education
 ======
-* **BEng in Electrical and Electronic Engineering**, University of Nottingham, Nottingham, United Kingdom, 2025--Present
-* **BEng in Electrical and Electronic Engineering**, University of Nottingham Ningbo China, Ningbo, China, 2023--2025
+* **BEng in Electrical and Electronic Engineering**, University of Nottingham, Nottingham, United Kingdom, 2025--2027
+* **BEng in Electrical and Electronic Engineering**, University of Nottingham Ningbo China, Ningbo, China, 2023--2027
 
 Experience
 ======

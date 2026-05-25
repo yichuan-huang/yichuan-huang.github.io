@@ -56,4 +56,4 @@ Skills
 ======
 * **Languages & Tools**: Python, C/C++, CMake, Git, Linux/Shell, Docker
 * **AI Engineering**: PyTorch, Computer Vision, LLM Integration (APIs/Prompting), Applied Reinforcement Learning, NumPy, Pandas, Matplotlib, Scikit-learn, XGBoost
-* **Embedded & Robotics**: STM32, ROS, Raspberry Pi, Arduino, LTspice, FPGA (Verilog), PID Control, Robotics Simulation (Isaac Sim / MuJoCo)
+* **Embedded & Robotics**: STM32, ROS, Raspberry Pi, Arduino, LTspice, FPGA (Verilog), PID Control, MuJoCo

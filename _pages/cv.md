@@ -16,6 +16,10 @@ Education
 
 Experience
 ======
+* **Research Assistant**, Tsinghua University, Department of Automation, Beijing, China, Jul. 2026--Present
+  * Supervisor: Prof. Keyou You
+  * Working on automatic control design via core feature extraction with non-expert assistance.
+
 * **Research Assistant (Remote)**, Tsinghua University, Department of Automation, Beijing, China, Sep. 2025--Feb. 2026
   * Supervisor: Prof. Keyou You
   * Developed and evaluated a deep reinforcement learning framework for autonomous robotic harvesting / flower-picking tasks in unstructured environments, using MuJoCo and a Franka Panda manipulator for pick-and-place simulation.

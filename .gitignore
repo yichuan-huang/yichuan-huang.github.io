@@ -21,3 +21,25 @@ package-lock.json
 
 # Ignore files created by MacOS
 .DS_Store
+
+# Ignore PDF files
+*.pdf
+
+# Ignore LaTeX build artifacts
+*.aux
+*.log
+*.bbl
+*.blg
+*.toc
+*.out
+*.lot
+*.lof
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.ps
+*.tex.bak

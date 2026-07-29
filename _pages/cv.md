@@ -17,11 +17,12 @@ Education
 Experience
 ======
 * **Research Assistant**, Tsinghua University, Department of Automation, Beijing, China, Jul. 2026--Present
-  * Supervisor: Prof. Keyou You
-  * Working on automatic control design via core feature extraction with non-expert assistance.
+  * Supervisor: [Prof. Keyou You](https://www.au.tsinghua.edu.cn/en/info/1075/3331.htm)
+  * Developing an AI-driven control agent that automates controller design from non-expert system descriptions by extracting minimal core features instead of performing full system identification.
+  * Established a functional end-to-end control design prototype spanning structural diagnosis and classification, safety-constrained experiment design, core-feature extraction, conservative controller synthesis, and interactive closed-loop simulation and evaluation.
 
 * **Research Assistant (Remote)**, Tsinghua University, Department of Automation, Beijing, China, Sep. 2025--Feb. 2026
-  * Supervisor: Prof. Keyou You
+  * Supervisor: [Prof. Keyou You](https://www.au.tsinghua.edu.cn/en/info/1075/3331.htm)
   * Developed and evaluated a deep reinforcement learning framework for autonomous robotic harvesting / flower-picking tasks in unstructured environments, using MuJoCo and a Franka Panda manipulator for pick-and-place simulation.
   * Built and debugged MuJoCo-based robotic manipulation environments for training and evaluating harvesting-oriented control policies under simulated task settings.
   * Trained and compared Soft Actor-Critic (SAC) and Truncated Quantile Critics (TQC) policies, focusing on training stability, robustness, and generalisation across simulated manipulation scenarios.
@@ -30,13 +31,13 @@ Experience
   * Developed a custom 2-DOF robotic arm environment for sim-to-sim transfer exploration, and analysed deployment bottlenecks caused by limited motion-capture support, including constraints on motion tracking, policy evaluation, and transfer validation.
 
 * **Visiting Undergraduate Student**, Shenzhen Research Institute of Big Data, Shenzhen, China, Jun. 2025--Aug. 2025
-  * Supervisor: Assoc. Prof. Ruoyu Sun
+  * Supervisor: [Assoc. Prof. Ruoyu Sun](https://sds.cuhk.edu.cn/en/teacher/628)
   * Surveyed recent LLM post-training paradigms, with emphasis on synthetic continued pre-training and catastrophic forgetting in fine-tuning.
   * Studied EntiGraph for synthetic data generation and examined the MoFo optimiser as an approach to improving retention during fine-tuning.
   * Gained hands-on exposure to local deployment and inference workflows for open-source LLMs through experimentation with GPT-OSS.
 
 * **Research Assistant (Onsite & Remote)**, Xi'an Jiaotong University, Bioinspired Engineering & Biomechanics Center, Xi'an, China, Jul. 2024--Jan. 2026
-  * Supervisors: Prof. Feng Xu; Asst. Prof. Bin Li
+  * Supervisors: [Prof. Feng Xu](https://bebc.xjtu.edu.cn/info/1053/2248.htm); [Asst. Prof. Bin Li](https://bebc.xjtu.edu.cn/info/1020/3791.htm)
   * Contributed to OsteoSight, a label-free virtual fluorescence staining and biophysics-anchored osteogenic fate inference system for conventional microscopy images.
   * Participated in the development and evaluation of a contrastive-learning-based virtual fluorescence staining pipeline to reconstruct YAP, F-actin, and nuclei signals from label-free microscopy images.
   * Supported model training, debugging, and qualitative/quantitative evaluation for image-to-image translation and virtual staining tasks, focusing on cellular morphology preservation, geometric consistency, and subcellular structure reconstruction.
@@ -60,7 +61,7 @@ Awards
 ======
 * **Scholarships**, University of Nottingham Ningbo China
   * University Academic Excellence Scholarship Winner (Provost's Scholarship), 2024--2025 and 2025--2026
-  * Nominee for Zhejiang Provincial Scholarship, 2024
+  * Zhejiang Provincial Scholarship, 2024
 
 Skills
 ======

@@ -54,7 +54,7 @@ Experience
 
 Research Output
 ======
-* **OsteoSight: Label-Free Virtual Fluorescence Staining for Biophysics-Anchored Osteogenic Fate Inference from Conventional Microscopy**
+* **OsteoSight: Label-Free Cell Osteogenic Fate Inference from Conventional Microscopy**
   * Co-author; manuscript under submission/review
 
 Awards

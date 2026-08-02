@@ -60,7 +60,7 @@ Research Output
 Awards
 ======
 * **Scholarships**, University of Nottingham Ningbo China
-  * University Academic Excellence Scholarship Winner (Provost's Scholarship), 2024--2025 and 2025--2026
+  * University Academic Excellence Scholarship Winner (Provost's Scholarship), 2023--2024 and 2024--2025
   * Zhejiang Provincial Scholarship, 2024
 
 Skills

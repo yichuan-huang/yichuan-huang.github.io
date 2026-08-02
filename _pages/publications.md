@@ -8,6 +8,6 @@ author_profile: true
 Manuscripts Under Review
 ======
 
-* **OsteoSight: Label-Free Virtual Fluorescence Staining for Biophysics-Anchored Osteogenic Fate Inference from Conventional Microscopy**  
+* **OsteoSight: Label-Free Cell Osteogenic Fate Inference from Conventional Microscopy**  
   Xi'an Jiaotong University, Bioinspired Engineering & Biomechanics Center  
-  Manuscript submitted and currently under review.
+  Co-author; manuscript under submission/review.
